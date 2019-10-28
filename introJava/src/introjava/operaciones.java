@@ -7,7 +7,6 @@ public class operaciones {
     public static void main(String[] args) {
         double numero1;
         double numero2;
-
         Scanner entrada = new Scanner(System.in);
         System.out.println("------OPERACIONES ARITMETICAS------");
         System.out.println("INGRESE UN NUMERO");
@@ -20,7 +19,7 @@ public class operaciones {
         System.out.println("LA MULTIPLICACIÓN ES:" + mul);
         double division = numero1 / numero2;
         System.out.println("LA DIVISIÓN ES:" + division);
-        double resto = numero1 % numero2;
-        System.out.println("EL RESTO ES:" + resto);
+        double res = numero1 % numero2;
+        System.out.println("EL RESTO ES:" + res);
     }
 }
