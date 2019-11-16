@@ -8,7 +8,7 @@ public class Acumuladores {
         int contador =1;
         int acumulador=1;
         while(contador <=5){
-            acumulador = acumulador + contador;
+            acumulador = acumulador * contador;
             
                
             contador++;
