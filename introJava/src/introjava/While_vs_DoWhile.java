@@ -10,5 +10,8 @@ package introjava;
  * @author Salas
  */
 public class While_vs_DoWhile {
+    public static void main(String[] args) {
+           
+    }
     
 }

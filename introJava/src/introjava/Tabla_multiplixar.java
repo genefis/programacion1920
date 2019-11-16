@@ -16,7 +16,8 @@ public class Tabla_multiplixar {
         int numero = entrada. nextInt();
         int cnt =1;
         while(cnt<=10){
-            System.out.println("numero "+cnt+"=");
+            System.out.println("numero "+cnt+"="+numero*cnt);
+            cnt++;
         
     }
     } 
