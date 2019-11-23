@@ -12,11 +12,11 @@ public class CajeroautomaticoWhile {
         int opcion = 0;
            //  while (nuevo_numero == true) {
         while (opcion != 4) {
-            System.out.println("INGRESE LA OPCION QUE DESEE");
-            System.out.println("1.Desea hacer un deposito");
-            System.out.println("2. Desea hacer un retiro");
+            System.out.println("***INGRESE LA OPCION QUE DESEE***");
+            System.out.println("1.Desea hacer un deposito--------");
+            System.out.println("2. Desea hacer un retiro---------");
             System.out.println("3.Presentar el saldo en la cuenta");
-            System.out.println("4. Finalizar el programa");
+            System.out.println("4. Finalizar el programa---------");
             opcion = sc.nextInt();
 
             switch (opcion) {
@@ -26,7 +26,7 @@ public class CajeroautomaticoWhile {
                     if (deposito > 0) {
                         saldo = saldo + deposito;
                     } else {
-                        System.out.println("Valor invalido");
+                        System.out.println("****VALOR INVALIDO****");
                     }
 
                     break;
@@ -42,7 +42,7 @@ public class CajeroautomaticoWhile {
                     }
                     break;
                 case (3):
-                    System.out.println(+saldo);
+                    System.out.println("El SALDO DE SU CUENTA ES:  "+saldo);
                     break;
 //                case (4):
 //                    nuevo_numero = false;
