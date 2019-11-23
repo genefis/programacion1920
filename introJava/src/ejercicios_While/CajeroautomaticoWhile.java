@@ -14,7 +14,7 @@ public class CajeroautomaticoWhile {
         while (opcion != 4) {
             System.out.println("***INGRESE LA OPCION QUE DESEE***");
             System.out.println("1.Desea hacer un deposito--------");
-            System.out.println("2. Desea hacer un retiro---------");
+            System.out.println("2.Desea hacer un retiro---------");
             System.out.println("3.Presentar el saldo en la cuenta");
             System.out.println("4. Finalizar el programa---------");
             opcion = sc.nextInt();
@@ -43,6 +43,7 @@ public class CajeroautomaticoWhile {
                     break;
                 case (3):
                     System.out.println("El SALDO DE SU CUENTA ES:  "+saldo);
+                    System.out.println("*********************************");
                     break;
 //                case (4):
 //                    nuevo_numero = false;
