@@ -1,7 +1,6 @@
 package Ejercicios_proyecto;
 
 import java.util.Scanner;
-
 public class Numero_perfecto {
 
     public static void main(String[] args) {
