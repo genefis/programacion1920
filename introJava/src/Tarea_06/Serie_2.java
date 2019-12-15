@@ -14,6 +14,7 @@ public class Serie_2 {
         while (i < n) {
 
             den = den + 1;
+            
             i = i + 1;
             System.out.print("+  "+num + "/" + den);
         }
