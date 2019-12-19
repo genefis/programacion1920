@@ -23,14 +23,13 @@ public class Binario_decimal {
             binario[i] = entrada.nextInt();
             System.out.print(binario[i] + ":");
         }
-
+        int j = binario.length - 1;
         for (i = 0; i < binario.length; i++) {
-            int j = binario.length - 1;
-            termino = termino + (binario[i] * 2 ^ j);// = 2 // 1
-            System.out.print("ES" + j);
-            j = j - 1;// 1-1=0
 
+            termino = termino + (binario[i] * 2 ^ j);// = 2 // 1
+            j = j - 1;
         }
+
         System.out.println("");
         System.out.print("El numero decimal es:" + termino);
 
