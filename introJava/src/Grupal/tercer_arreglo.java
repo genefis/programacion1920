@@ -6,8 +6,8 @@ public class tercer_arreglo {
         int indice1 = 0;
         int indice2 = 0;
         int indice3 = 0;
-        char Arreglo1[] = {'a', 'b', 'c', 'd', 'e', 'f'};
-        char Arreglo2[] = {'g', 'h', 'i', 'j', 'k'};
+        String Arreglo1[] = {"a", "b", "c", "d", "e", "f"};
+        String Arreglo2[] = {"g", "h", "i", "j", "k"};
         for (indice1 = 0; indice1 < Arreglo1.length; indice1++) {
             System.out.print(Arreglo1[indice1] + " ");
         }
