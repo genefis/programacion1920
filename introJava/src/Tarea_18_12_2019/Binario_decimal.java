@@ -14,25 +14,25 @@ public class Binario_decimal {
         int termino = 0;
         int suma = 0;
         int i = 0;
-        int j = 0;
+
         System.out.println("Ingrese el numero de elementos");
         int n = entrada.nextInt();
         int[] binario = new int[n];
         for (i = 0; i < binario.length; i++) {
             System.out.println("Ingrese un valor");
             binario[i] = entrada.nextInt();
+            System.out.print(binario[i] + ":");
+        }
+
+        for (i = 0; i < binario.length; i++) {
+            int j = binario.length - 1;
+            termino = termino + (binario[i] * 2 ^ j);// = 2 // 1
+            System.out.print("ES" + j);
+            j = j - 1;// 1-1=0
 
         }
-        for (j = binario.length; j >= 0; j--) {
-            for (i = 0; i < binario.length; i++) {
-                termino = (binario[i] * 2 ^ j);
-                suma = suma + termino;
-            }
-        }
-        System.out.println(termino);
         System.out.println("");
-        System.out.print("El numero decimal es:" + suma);
+        System.out.print("El numero decimal es:" + termino);
 
     }
-
 }
