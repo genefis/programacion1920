@@ -21,7 +21,7 @@ public class Tiempo {
      */
     public Tiempo(int hora,int minuto,int segundo){
         System.out.println("Se iniciado la clase tiempo");
-        this.hora=hora;
+         this.hora=hora;
         this.minuto=minuto;
         this.segundo=segundo;
         
@@ -42,5 +42,9 @@ public class Tiempo {
         return segundo;
     }
     
+    public String Tiempo_real(){
+        String tiempo= hora+":"+minuto+":"+segundo;
+        return tiempo;
+    }
     
 }
