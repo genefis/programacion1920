@@ -18,5 +18,9 @@ public class EjecutaTiempo {
         System.out.println("valor de hora: "+objeto_tiempo.obtener_minuto());
         System.out.println("valor de hora: "+objeto_tiempo.obtener_segundo());
         System.out.println("tiempo:"+objeto_tiempo.Tiempo_real());
+        
+        //vamos a crear un segundo objeto de la clase tiempo
+        Tiempo tiempo2 = new Tiempo();
+        System.out.println("valor de hora"+tiempo2.obtener_hora());
     }
 }

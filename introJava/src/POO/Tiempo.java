@@ -14,13 +14,18 @@ public class Tiempo {
     private int hora;
     private int minuto;
     private int segundo;
-    
+    /**
+     * 
+     */
+    public Tiempo (){
+        System.out.println("Se iniciado la clase tiempo");
+    }
     /**
      * Este metodo es el contructor de la clase
      * El contructor se ejecuta al momento de crear un objeto para la clase tiempo
      */
     public Tiempo(int hora,int minuto,int segundo){
-        System.out.println("Se iniciado la clase tiempo");
+        
          this.hora=hora;
         this.minuto=minuto;
         this.segundo=segundo;
