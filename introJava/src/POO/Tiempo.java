@@ -11,7 +11,7 @@ package POO;
  */
 public class Tiempo {
     // Atributos de la clase, se declara de forma global
-    private int hota;
+    private int hora;
     private int minuto;
     private int segundo;
     
@@ -19,8 +19,27 @@ public class Tiempo {
      * Este metodo es el contructor de la clase
      * El contructor se ejecuta al momento de crear un objeto para la clase tiempo
      */
-    public Tiempo(){
+    public Tiempo(int hora,int minuto,int segundo){
         System.out.println("Se iniciado la clase tiempo");
+        this.hora=hora;
+        this.minuto=minuto;
+        this.segundo=segundo;
+        
+    }
+    
+    /**
+     * Metodo que devuelve o encpsula al atributo hora 
+     * y sirve para devolver el valor que tiene la variable hora
+     * @return 
+     */
+    public int obtener_hora(){
+        return hora;
+    }
+    public int obtener_minuto(){
+        return minuto;
+    }
+    public int obtener_segundo(){
+        return segundo;
     }
     
     
